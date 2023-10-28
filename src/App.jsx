@@ -1,8 +1,8 @@
 import NewProject from "./Components/NewProject.jsx";
 import NoProjectSelected from "./Components/NoProjectSelected.jsx";
-import SideBar from "./Components/sideBar.jsx";
+import SideBar from "./Components/SideBar.jsx";
 import { useState } from "react";
-import SelectedProject from "./Components/selectedProject.jsx";
+import SelectedProject from "./Components/SelectedProject.jsx";
 function App() {
   const [projectstate, setProjectstate] = useState({
     selectedProjectId: undefined, //undefined means there is nothing
